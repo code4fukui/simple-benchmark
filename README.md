@@ -5,20 +5,20 @@
 Apple M1 Pro
 ```
 deno run -A bench.js
-471msec (null loop)
-936msec (add loop)
+471 msec (null loop)
+936 msec (add loop)
 500000000995475700
-2149069operations / sec
+2149069 operations / sec
 
 node bench.js 
-473msec (null loop)
-941msec (add loop)
+473 msec (null loop)
+941 msec (add loop)
 500000000995475700
-2134067operations / sec
+2134067 operations / sec
 
 bun bench.js
-323msec (null loop)
-939msec (add loop)
+323 msec (null loop)
+939 msec (add loop)
 500000000995475700
-1625792operations / sec
+1625792 operations / sec
 ```
